@@ -14,14 +14,14 @@ LONG_DESCRIPTION = LONG_DESCRIPTION
 # Setting up
 setup(
        # the name must match the folder name 'verysimplemodule'
-        name="cardano_tx", 
+        name="cardano_tx_tools", 
         packages=['cardano_tx'],
         include_package_data=True,
         version=VERSION,
         author="Atta Djessy",
         author_email="djessyatta@live.fr",
         url = 'https://github.com/djessy-atta/cardano-tx-tools',
-        download_url = 'https://github.com/attadje/cardano-tx-tools/archive/refs/tags/v0.1-beta.1.tar.gz',
+        download_url = 'https://github.com/attadje/cardano-tx-tools/archive/refs/tags/v0.1b.0.tar.gz',
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         install_requires=['cbor2', 'pydot', 'graphviz'],
