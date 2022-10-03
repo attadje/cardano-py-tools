@@ -25,3 +25,5 @@ tx.vizualisation(txFile=TX_FILE, saveTo=SAVE_TO)
 SVG(SAVE_TO)
 ```
 
+![flox-chart](./tests/flow-chart/txMetadata.svg)
+
