@@ -8,20 +8,20 @@ except Exception as e:
     
     
 VERSION = '0.1b0' 
-DESCRIPTION = 'A python module to vizualize a signed transaction generate with the cardano-cli'
+DESCRIPTION = 'Cardano python tools'
 LONG_DESCRIPTION = LONG_DESCRIPTION
 
 # Setting up
 setup(
        # the name must match the folder name 'verysimplemodule'
-        name="cardano_tx_tools", 
-        packages=['cardano_tx'],
+        name="cardano_py_tools", 
+        packages=['cardano_py_tools'],
         include_package_data=True,
         version=VERSION,
         author="Atta Djessy",
         author_email="djessyatta@live.fr",
-        url = 'https://github.com/djessy-atta/cardano-tx-tools',
-        download_url = 'https://github.com/attadje/cardano-tx-tools/archive/refs/tags/v0.1b.0.tar.gz',
+        url = 'https://github.com/djessy-atta/cardano-py-tools',
+        download_url = 'https://github.com/attadje/cardano-py-tools/archive/refs/tags/0.1b0tar.gz',
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         install_requires=['cbor2', 'pydot', 'graphviz'],
