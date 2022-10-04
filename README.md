@@ -28,7 +28,6 @@ SAVE_TO="tests/flow-chart/txMetadata.svg"
 # Create the transaction flow chart
 tx.vizualisation(txFile=TX_FILE, saveTo=SAVE_TO)
 
-# Show the transaction flow chart
 SVG(SAVE_TO)
 ```
 ![magnific-logo](tests/flow-chart/txMetadata.svg)
