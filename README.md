@@ -25,7 +25,6 @@ from cardano_py_tools import transaction as tx
 TX_FILE="tests/tx-files/txMetadata.signed"
 SAVE_TO="tests/flow-chart/txMetadata.svg"
 
-# Create the transaction flow chart
 tx.vizualisation(txFile=TX_FILE, saveTo=SAVE_TO)
 
 SVG(SAVE_TO)
