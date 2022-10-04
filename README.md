@@ -13,7 +13,7 @@
 
 ```python
 from IPython.display import SVG
-from cardano_tx import transaction as tx
+from cardano_py_tools import transaction as tx
 
 TX_FILE="tests/test-files/tx-files/txMetadata.signed"
 SAVE_TO="tests/flow-chart/txMetadata.svg"
